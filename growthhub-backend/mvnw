@@ -1,0 +1,19 @@
+#!/bin/sh
+
+BASEDIR=$(cd "$(dirname "$0")" && pwd -P)
+WRAPPER_JAR="$BASEDIR/.mvn/wrapper/maven-wrapper.jar"
+
+if [ ! -f "$WRAPPER_JAR" ]; then
+  echo "Maven wrapper jar not found: $WRAPPER_JAR"
+  echo "Run from the project root or re-download the wrapper jar."
+  exit 1
+fi
+
+JAVA_EXE=java
+if [ -n "$JAVA_HOME" ] && [ -x "$JAVA_HOME/bin/java" ]; then
+  JAVA_EXE="$JAVA_HOME/bin/java"
+fi
+
+exec "$JAVA_EXE" $MAVEN_OPTS -classpath "$WRAPPER_JAR" \
+  "-Dmaven.multiModuleProjectDirectory=$BASEDIR" \
+  org.apache.maven.wrapper.MavenWrapperMain "$@"

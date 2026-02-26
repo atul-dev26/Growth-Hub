@@ -1,0 +1,21 @@
+HELP.md
+target/
+!.mvn/wrapper/mvnw
+!.mvn/wrapper/mvnw.cmd
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IDE ###
+.idea
+*.iws
+*.iml
+*.ipr
+.vscode
+*.swp
+*.swo
+*~
+
+### Environment ###
+.env
+.env.local
+*.log
