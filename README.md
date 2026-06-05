@@ -3,6 +3,7 @@
 A productivity and competitive growth platform built for college students preparing for placements.
 
 GrowthHub helps students track coding progress, productivity consistency, and overall growth from a single dashboard instead of juggling multiple tools.
+
 ---
 
 ## The Problem
