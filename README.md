@@ -1,10 +1,11 @@
--> GrowthHub
+## GrowthHub
 
 A productivity and competitive growth platform built for college students preparing for placements.
 
 GrowthHub helps students track coding progress, productivity consistency, and overall growth from a single dashboard instead of juggling multiple tools.
+---
 
--->> The Problem
+## The Problem
 
 Students preparing for internships and placements typically use:
 
@@ -17,7 +18,7 @@ As a result, progress becomes fragmented and difficult to measure consistently.
 
 GrowthHub brings everything together into a unified growth ecosystem.
 
--->> Features
+## Features
 
 Unified Growth Dashboard
 
@@ -34,7 +35,7 @@ Daily Efficiency Tracker
 
 Plan realistic goals.
 
--->> Track:
+## Track:
 
 * Tasks Completed
 * Productivity Score
@@ -46,8 +47,9 @@ Competitive Leaderboards
 Opt-in leaderboards designed specifically for serious placement preparation.
 
 Compare your growth with peers while maintaining healthy competition.
+---
 
--->> Progress Visualization
+## Progress Visualization
 
 Visual dashboards provide insights into:
 
@@ -55,38 +57,39 @@ Visual dashboards provide insights into:
 * Daily Efficiency
 * Weekly Trends
 * Monthly Growth
+  ---
 
--->> System Architecture
+## System Architecture
 
 <img width="1085" height="802" alt="image" src="https://github.com/user-attachments/assets/12b0142e-8133-4da1-bcbb-e6575831a053" />
 
--->> Tech Stack
+## Tech Stack
 
- -> Frontend
+ # Frontend
 
 * React
 * JavaScript
 * HTML
 * CSS
 
--->> Backend
+## Backend
 
 * Spring Boot
 * Java
 * REST APIs
 
--->> Database
+## Database
 
 * MySQL
 
--->> Authentication
+## Authentication
 
 * Google OAuth
 * GitHub OAuth
 
--->> Screenshots
+## Screenshots
 
--> Dashboard
+# Dashboard
 
 <img width="2557" height="1429" alt="Screenshot 2026-03-04 175621" src="https://github.com/user-attachments/assets/4c7df99d-0a1a-4867-a16e-9ce9ee49f02b" />
 
